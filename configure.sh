@@ -19,6 +19,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
             "port": $PORT,
             "protocol": "vless",
             "settings": {
+            "decryption": "none",
                 "clients": [
                     {
                         "id": "$UUID",
